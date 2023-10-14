@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_qK0UcGoqEe6nYqhb_GVxSg" name="DesafioDiagramaUML">
+    <eAnnotations xmi:id="_qQOY4GoqEe6nYqhb_GVxSg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_qQQ1IGoqEe6nYqhb_GVxSg" source="codegen">
+        <details xmi:id="_qQQ1IWoqEe6nYqhb_GVxSg" key="codegenDirectory" value="/DesafioDiagramaUML/src"/>
+        <details xmi:id="_qayDEGoqEe6nYqhb_GVxSg" key="AssociatedSourceCode" value="/DesafioDiagramaUML/src/entities/AparelhoTelefonico.java;2612242373/1;/DesafioDiagramaUML/src/entities/Navegador.java;2014683634/1;/DesafioDiagramaUML/src/entities/NavegadorInternet.java;269389035/1;/DesafioDiagramaUML/src/entities/ReprodutorMusical.java;4267456603/1;/DesafioDiagramaUML/src/program/Iphone.java;3984592455/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_qWQIYGoqEe6nYqhb_GVxSg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_qWQIYWoqEe6nYqhb_GVxSg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_qWQIYmoqEe6nYqhb_GVxSg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_qWQIY2oqEe6nYqhb_GVxSg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_qWQIZGoqEe6nYqhb_GVxSg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_qWQvcGoqEe6nYqhb_GVxSg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_qWQvcWoqEe6nYqhb_GVxSg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_qWQvcmoqEe6nYqhb_GVxSg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_qWRWgGoqEe6nYqhb_GVxSg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_qWWPAGoqEe6nYqhb_GVxSg" name="entities">
+      <packagedElement xmi:type="uml:Class" xmi:id="_qWqYEGoqEe6nYqhb_GVxSg" name="AparelhoTelefonico">
+        <ownedOperation xmi:id="_qWv3oGoqEe6nYqhb_GVxSg" name="ligar"/>
+        <ownedOperation xmi:id="_qWxs0GoqEe6nYqhb_GVxSg" name="atender"/>
+        <ownedOperation xmi:id="_qWyT4GoqEe6nYqhb_GVxSg" name="iniciarConversaVoz"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_qWyT4WoqEe6nYqhb_GVxSg" name="Navegador">
+        <ownedOperation xmi:id="_qWy68GoqEe6nYqhb_GVxSg" name="exibirPagina"/>
+        <ownedOperation xmi:id="_qWziAGoqEe6nYqhb_GVxSg" name="adicionaNovaAba"/>
+        <ownedOperation xmi:id="_qWziAWoqEe6nYqhb_GVxSg" name="atualizaPagina"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qW0JEGoqEe6nYqhb_GVxSg" name="NavegadorInternet">
+        <interfaceRealization xmi:id="_qXZX4GoqEe6nYqhb_GVxSg" client="_qW0JEGoqEe6nYqhb_GVxSg" supplier="_qWyT4WoqEe6nYqhb_GVxSg" contract="_qWyT4WoqEe6nYqhb_GVxSg"/>
+        <ownedOperation xmi:id="_qW0wIGoqEe6nYqhb_GVxSg" name="exibirPagina"/>
+        <ownedOperation xmi:id="_qW2lUmoqEe6nYqhb_GVxSg" name="adicionaNovaAba"/>
+        <ownedOperation xmi:id="_qW3zcmoqEe6nYqhb_GVxSg" name="atualizaPagina"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qW62wGoqEe6nYqhb_GVxSg" name="ReprodutorMusical">
+        <ownedOperation xmi:id="_qW7d0GoqEe6nYqhb_GVxSg" name="tocar"/>
+        <ownedOperation xmi:id="_qW7d0WoqEe6nYqhb_GVxSg" name="pausar"/>
+        <ownedOperation xmi:id="_qW8E4GoqEe6nYqhb_GVxSg" name="selecionarMusica"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_qWicQGoqEe6nYqhb_GVxSg" name="program">
+      <packagedElement xmi:type="uml:Class" xmi:id="_qW8r8GoqEe6nYqhb_GVxSg" name="Iphone">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qXtg8GoqEe6nYqhb_GVxSg" name="main" specification="_qW96EGoqEe6nYqhb_GVxSg">
+          <ownedParameter xmi:id="_qXtg8WoqEe6nYqhb_GVxSg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qXtg8moqEe6nYqhb_GVxSg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>ReprodutorMusical reprodutor = new ReprodutorMusical();&#xD;
+     AparelhoTelefonico telefone = new AparelhoTelefonico();&#xD;
+     Navegador navegador = new NavegadorInternet();&#xD;
+&#xD;
+     System.out.println(&quot;Testando o Reprodutor Musical:&quot;);&#xD;
+     reprodutor.tocar();&#xD;
+     reprodutor.pausar();&#xD;
+     reprodutor.selecionarMusica();&#xD;
+&#xD;
+     System.out.println(&quot;\nTestando o Aparelho Telefônico:&quot;);&#xD;
+     telefone.ligar();&#xD;
+     telefone.atender();&#xD;
+     telefone.iniciarConversaVoz();&#xD;
+&#xD;
+     System.out.println(&quot;\nTestando o Navegador na Internet:&quot;);&#xD;
+     navegador.exibirPagina();&#xD;
+     navegador.adicionaNovaAba();&#xD;
+     navegador.atualizaPagina();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_qW96EGoqEe6nYqhb_GVxSg" name="main" isStatic="true" method="_qXtg8GoqEe6nYqhb_GVxSg">
+          <ownedParameter xmi:id="_qW96EWoqEe6nYqhb_GVxSg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qW-hIGoqEe6nYqhb_GVxSg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_qQTRYGoqEe6nYqhb_GVxSg">
+      <eAnnotations xmi:id="_qQTRYWoqEe6nYqhb_GVxSg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_qQUfgGoqEe6nYqhb_GVxSg" base_Package="_qK0UcGoqEe6nYqhb_GVxSg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qW1XMGoqEe6nYqhb_GVxSg" base_Element="_qW0wIGoqEe6nYqhb_GVxSg"/>
+  <UMLLabProfile:Annotations xmi:id="_qW2lUGoqEe6nYqhb_GVxSg" base_Element="_qW0wIGoqEe6nYqhb_GVxSg">
+    <annotations xmi:id="_qW2lUWoqEe6nYqhb_GVxSg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qW3MYGoqEe6nYqhb_GVxSg" base_Element="_qW2lUmoqEe6nYqhb_GVxSg"/>
+  <UMLLabProfile:Annotations xmi:id="_qW3zcGoqEe6nYqhb_GVxSg" base_Element="_qW2lUmoqEe6nYqhb_GVxSg">
+    <annotations xmi:id="_qW3zcWoqEe6nYqhb_GVxSg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qW5ooGoqEe6nYqhb_GVxSg" base_Element="_qW3zcmoqEe6nYqhb_GVxSg"/>
+  <UMLLabProfile:Annotations xmi:id="_qW5ooWoqEe6nYqhb_GVxSg" base_Element="_qW3zcmoqEe6nYqhb_GVxSg">
+    <annotations xmi:id="_qW6PsGoqEe6nYqhb_GVxSg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qCvhEGorEe6nYqhb_GVxSg" base_Element="_qWv3oGoqEe6nYqhb_GVxSg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qCwIIGorEe6nYqhb_GVxSg" base_Element="_qWxs0GoqEe6nYqhb_GVxSg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qCwIIWorEe6nYqhb_GVxSg" base_Element="_qWyT4GoqEe6nYqhb_GVxSg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sdZloGorEe6nYqhb_GVxSg" base_Element="_qW7d0GoqEe6nYqhb_GVxSg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sdZloWorEe6nYqhb_GVxSg" base_Element="_qW7d0WoqEe6nYqhb_GVxSg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sdaMsGorEe6nYqhb_GVxSg" base_Element="_qW8E4GoqEe6nYqhb_GVxSg"/>
+</xmi:XMI>

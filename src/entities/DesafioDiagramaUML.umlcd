@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_qLxWsGoqEe6nYqhb_GVxSg">
+  <modelElement href="DesafioDiagramaUML.uml#_qK0UcGoqEe6nYqhb_GVxSg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_vOwIYGoqEe6nYqhb_GVxSg" sourceAnchor="111.0,0.0" targetAnchor="147.0,208.0" enclosingItem="_tJSQsGoqEe6nYqhb_GVxSg" containedItem="_vOykoGoqEe6nYqhb_GVxSg">
+    <bendpoints xmi:id="_vWdS4GoqEe6nYqhb_GVxSg" sourceY="-28" targetX="345" targetY="27"/>
+    <bendpoints xmi:id="_vWd58GoqEe6nYqhb_GVxSg" sourceX="-345" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_vO1n8GoqEe6nYqhb_GVxSg" sourceAnchor="108.0,0.0" targetAnchor="147.0,208.0" enclosingItem="_tJSQsGoqEe6nYqhb_GVxSg" containedItem="_vO22EGoqEe6nYqhb_GVxSg">
+    <bendpoints xmi:id="_vWd58WoqEe6nYqhb_GVxSg" sourceY="-28" targetX="-311" targetY="27"/>
+    <bendpoints xmi:id="_vWd58moqEe6nYqhb_GVxSg" sourceX="311" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vO4rQGoqEe6nYqhb_GVxSg" sourceAnchor="0.0,64.0" targetAnchor="108.0,156.0" dashed="true" superClass="_vO22EGoqEe6nYqhb_GVxSg" subClass="_vO7ukGoqEe6nYqhb_GVxSg">
+    <modelElement href="DesafioDiagramaUML.uml#_qXZX4GoqEe6nYqhb_GVxSg"/>
+    <bendpoints xmi:id="_vWehAGoqEe6nYqhb_GVxSg" sourceX="-188" targetY="109"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_vO5SUGoqEe6nYqhb_GVxSg" sourceAnchor="123.0,0.0" targetAnchor="147.0,208.0" enclosingItem="_tJSQsGoqEe6nYqhb_GVxSg" containedItem="_vO7ukGoqEe6nYqhb_GVxSg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_vO88sGoqEe6nYqhb_GVxSg" sourceAnchor="104.0,0.0" targetAnchor="147.0,208.0" enclosingItem="_tJSQsGoqEe6nYqhb_GVxSg" containedItem="_vO-K0GoqEe6nYqhb_GVxSg">
+    <bendpoints xmi:id="_vWehAWoqEe6nYqhb_GVxSg" sourceY="-28" targetX="-593" targetY="27"/>
+    <bendpoints xmi:id="_vWfIEGoqEe6nYqhb_GVxSg" sourceX="593" sourceY="-28" targetY="27"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vOykoGoqEe6nYqhb_GVxSg" containment="_vOwIYGoqEe6nYqhb_GVxSg" name="AparelhoTelefonico" package="_tJSQsGoqEe6nYqhb_GVxSg">
+    <modelElement href="DesafioDiagramaUML.uml#_qWqYEGoqEe6nYqhb_GVxSg"/>
+    <visualProperties xmi:id="_vOykoWoqEe6nYqhb_GVxSg" position="392.0,293.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vOykomoqEe6nYqhb_GVxSg" label="+"/>
+    <operations xmi:id="_vOyko2oqEe6nYqhb_GVxSg" name="ligar">
+      <modelElement href="DesafioDiagramaUML.uml#_qWv3oGoqEe6nYqhb_GVxSg"/>
+      <stereotypes xmi:id="_qCykYGorEe6nYqhb_GVxSg" name="LegacyStyledElement">
+        <modelElement href="DesafioDiagramaUML.uml#_qCvhEGorEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <visibility xmi:id="_vOykpGoqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vOykpWoqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vOykpmoqEe6nYqhb_GVxSg" name="atender">
+      <modelElement href="DesafioDiagramaUML.uml#_qWxs0GoqEe6nYqhb_GVxSg"/>
+      <stereotypes xmi:id="_qCzygGorEe6nYqhb_GVxSg" name="LegacyStyledElement">
+        <modelElement href="DesafioDiagramaUML.uml#_qCwIIGorEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <visibility xmi:id="_vOykp2oqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vOykqGoqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vOykqWoqEe6nYqhb_GVxSg" name="iniciarConversaVoz">
+      <modelElement href="DesafioDiagramaUML.uml#_qWyT4GoqEe6nYqhb_GVxSg"/>
+      <stereotypes xmi:id="_qC1AoGorEe6nYqhb_GVxSg" name="LegacyStyledElement">
+        <modelElement href="DesafioDiagramaUML.uml#_qCwIIWorEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <visibility xmi:id="_vOykqmoqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vOykq2oqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_vO22EGoqEe6nYqhb_GVxSg" containment="_vO1n8GoqEe6nYqhb_GVxSg" name="Navegador" package="_tJSQsGoqEe6nYqhb_GVxSg" subclassedBy="_vO4rQGoqEe6nYqhb_GVxSg">
+    <modelElement href="DesafioDiagramaUML.uml#_qWyT4WoqEe6nYqhb_GVxSg"/>
+    <visualProperties xmi:id="_vO22EWoqEe6nYqhb_GVxSg" position="-261.0,293.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vO22EmoqEe6nYqhb_GVxSg" label="+"/>
+    <operations xmi:id="_vO22E2oqEe6nYqhb_GVxSg" name="exibirPagina">
+      <modelElement href="DesafioDiagramaUML.uml#_qWy68GoqEe6nYqhb_GVxSg"/>
+      <visibility xmi:id="_vO22FGoqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vO22FWoqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vO22FmoqEe6nYqhb_GVxSg" name="adicionaNovaAba">
+      <modelElement href="DesafioDiagramaUML.uml#_qWziAGoqEe6nYqhb_GVxSg"/>
+      <visibility xmi:id="_vO22F2oqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vO22GGoqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vO22GWoqEe6nYqhb_GVxSg" name="atualizaPagina">
+      <modelElement href="DesafioDiagramaUML.uml#_qWziAWoqEe6nYqhb_GVxSg"/>
+      <visibility xmi:id="_vO22GmoqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vO22G2oqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vO7ukGoqEe6nYqhb_GVxSg" containment="_vO5SUGoqEe6nYqhb_GVxSg" name="NavegadorInternet" package="_tJSQsGoqEe6nYqhb_GVxSg" generalizations="_vO4rQGoqEe6nYqhb_GVxSg">
+    <modelElement href="DesafioDiagramaUML.uml#_qW0JEGoqEe6nYqhb_GVxSg"/>
+    <visualProperties xmi:id="_vO7ukWoqEe6nYqhb_GVxSg" position="35.0,494.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vO7ukmoqEe6nYqhb_GVxSg" label="+"/>
+    <operations xmi:id="_vO7uk2oqEe6nYqhb_GVxSg" name="exibirPagina">
+      <modelElement href="DesafioDiagramaUML.uml#_qW0wIGoqEe6nYqhb_GVxSg"/>
+      <stereotypes xmi:id="_vO7ulGoqEe6nYqhb_GVxSg" name="LegacyStyledElement">
+        <modelElement href="DesafioDiagramaUML.uml#_qW1XMGoqEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vO7ulWoqEe6nYqhb_GVxSg" name="Annotations">
+        <modelElement href="DesafioDiagramaUML.uml#_qW2lUGoqEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <visibility xmi:id="_vO7ulmoqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vO7ul2oqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vO7umGoqEe6nYqhb_GVxSg" name="adicionaNovaAba">
+      <modelElement href="DesafioDiagramaUML.uml#_qW2lUmoqEe6nYqhb_GVxSg"/>
+      <stereotypes xmi:id="_vO7umWoqEe6nYqhb_GVxSg" name="LegacyStyledElement">
+        <modelElement href="DesafioDiagramaUML.uml#_qW3MYGoqEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vO7ummoqEe6nYqhb_GVxSg" name="Annotations">
+        <modelElement href="DesafioDiagramaUML.uml#_qW3zcGoqEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <visibility xmi:id="_vO7um2oqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vO7unGoqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vO7unWoqEe6nYqhb_GVxSg" name="atualizaPagina">
+      <modelElement href="DesafioDiagramaUML.uml#_qW3zcmoqEe6nYqhb_GVxSg"/>
+      <stereotypes xmi:id="_vO7unmoqEe6nYqhb_GVxSg" name="LegacyStyledElement">
+        <modelElement href="DesafioDiagramaUML.uml#_qW5ooGoqEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vO7un2oqEe6nYqhb_GVxSg" name="Annotations">
+        <modelElement href="DesafioDiagramaUML.uml#_qW5ooWoqEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <visibility xmi:id="_vO7uoGoqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vO7uoWoqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vO-K0GoqEe6nYqhb_GVxSg" containment="_vO88sGoqEe6nYqhb_GVxSg" name="ReprodutorMusical" package="_tJSQsGoqEe6nYqhb_GVxSg">
+    <modelElement href="DesafioDiagramaUML.uml#_qW62wGoqEe6nYqhb_GVxSg"/>
+    <visualProperties xmi:id="_vO-K0WoqEe6nYqhb_GVxSg" position="-539.0,293.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vO-K0moqEe6nYqhb_GVxSg" label="+"/>
+    <operations xmi:id="_vO-K02oqEe6nYqhb_GVxSg" name="tocar">
+      <modelElement href="DesafioDiagramaUML.uml#_qW7d0GoqEe6nYqhb_GVxSg"/>
+      <stereotypes xmi:id="_sdazwGorEe6nYqhb_GVxSg" name="LegacyStyledElement">
+        <modelElement href="DesafioDiagramaUML.uml#_sdZloGorEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <visibility xmi:id="_vO-K1GoqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vO-K1WoqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vO-K1moqEe6nYqhb_GVxSg" name="pausar">
+      <modelElement href="DesafioDiagramaUML.uml#_qW7d0WoqEe6nYqhb_GVxSg"/>
+      <stereotypes xmi:id="_sdba0GorEe6nYqhb_GVxSg" name="LegacyStyledElement">
+        <modelElement href="DesafioDiagramaUML.uml#_sdZloWorEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <visibility xmi:id="_vO-K12oqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vO-K2GoqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vO-K2WoqEe6nYqhb_GVxSg" name="selecionarMusica">
+      <modelElement href="DesafioDiagramaUML.uml#_qW8E4GoqEe6nYqhb_GVxSg"/>
+      <stereotypes xmi:id="_sdco8GorEe6nYqhb_GVxSg" name="LegacyStyledElement">
+        <modelElement href="DesafioDiagramaUML.uml#_sdaMsGorEe6nYqhb_GVxSg"/>
+      </stereotypes>
+      <visibility xmi:id="_vO-K2moqEe6nYqhb_GVxSg" label="+"/>
+      <cardinality xmi:id="_vO-K22oqEe6nYqhb_GVxSg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_tJSQsGoqEe6nYqhb_GVxSg" containments="_vOwIYGoqEe6nYqhb_GVxSg _vO1n8GoqEe6nYqhb_GVxSg _vO5SUGoqEe6nYqhb_GVxSg _vO88sGoqEe6nYqhb_GVxSg" classes="_vOykoGoqEe6nYqhb_GVxSg _vO22EGoqEe6nYqhb_GVxSg _vO7ukGoqEe6nYqhb_GVxSg _vO-K0GoqEe6nYqhb_GVxSg" name="entities">
+    <modelElement href="DesafioDiagramaUML.uml#_qWWPAGoqEe6nYqhb_GVxSg"/>
+    <visualProperties xmi:id="_tJSQsWoqEe6nYqhb_GVxSg" position="11.0,30.0" size="295.0,208.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
